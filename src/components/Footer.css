@@ -1,0 +1,128 @@
+/* Footer */
+.footer {
+  background: #fff;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* Main footer */
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: 48px;
+}
+
+/* Brand */
+.footer-brand {
+  min-width: 0;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo-badge {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.footer-logo-text {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.footer-logo-dev {
+  color: #0f172a;
+}
+
+.footer-logo-stack {
+  margin-left: 3px;
+  background: linear-gradient(90deg, #ec4899, #8b5cf6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.footer-tagline {
+  max-width: 380px;
+  margin: 18px 0 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Social links */
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 22px;
+}
+
+.footer-socials a {
+  color: #1e293b;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.footer-socials a:hover {
+  color: #ec4899;
+}
+
+/* Navigation columns */
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.footer-column h3 {
+  margin: 0 0 6px;
+  color: #0f172a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.footer-column a {
+  color: #64748b;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-column a:hover {
+  color: #0f172a;
+}
+
+/* Bottom */
+.footer-bottom {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 18px 32px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 13px;
+}

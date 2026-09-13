@@ -1,28 +1,5 @@
 # Dev-Stack
 
-Dev-Stack is a React-based website that allows developers to explore different technologies and build their own development stack.
-
-## Tech Used
-
-- React
-- JavaScript
-- Vite
-- CSS
-- JSON
-- React-Toastify
-
-## Features
-
-- Explore different development technologies
-- Add technologies to your own stack
-- Remove technologies from your stack
-- Responsive design for desktop, tablet, and mobile
-- Toast notifications for stack actions
-- Technology data loaded from JSON
-
----
-# Dev-Stack
-
 Dev-Stack is a React-based website where users can explore different development technologies and build their own development stack.
 
 ## Tech Used

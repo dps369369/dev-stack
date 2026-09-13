@@ -1,0 +1,83 @@
+/* Main navbar */
+.navbar {
+  width: 100%;
+  min-height: 72px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 16px 24px;
+
+  background-color: #fff;
+  border-bottom: 1px solid #e2e8f0;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brand-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+}
+
+/* Navigation */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.navbar-links a {
+  color: #64748b;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-links a:hover,
+.sign-in:hover {
+  color: #0f172a;
+}
+
+.navbar-links a.active {
+  color: #ec4899;
+}
+
+/* Buttons */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-actions button {
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sign-in {
+  padding: 10px 8px;
+  color: #64748b;
+  background: transparent;
+}
+
+.sign-up {
+  padding: 10px 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #ff5e1e, #ec4899);
+  border-radius: 999px;
+}

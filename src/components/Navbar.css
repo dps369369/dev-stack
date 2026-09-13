@@ -78,6 +78,6 @@
 .sign-up {
   padding: 10px 20px;
   color: #fff;
-  background: linear-gradient(90deg, #ff5e1e, #ec4899);
+  background: var(--main-gradient);
   border-radius: 999px;
 }

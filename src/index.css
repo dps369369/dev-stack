@@ -1,0 +1,8 @@
+:root {
+  --main-gradient: linear-gradient(
+    90deg,
+    #ff5e1e,
+    #ec4899,
+    #8b5cf6
+  );
+}

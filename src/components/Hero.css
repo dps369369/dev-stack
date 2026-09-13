@@ -1,111 +1,114 @@
 /* Main Hero section */
 .hero {
-  padding: 48px 32px;
-  background-color: #f8fafc;
+    padding: 48px 32px;
+    background-color: #f8fafc;
 }
+
 .hero-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 64px;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 64px;
 }
 
 /* Left side of the Hero */
 .hero-content {
-  max-width: 600px;
+    max-width: 600px;
 }
 
 /* Main Hero heading */
 .hero-content h1 {
-  margin: 0;
-  color: #0f172a;
-  font-size: 56px;
-  line-height: 1.1;
-  font-weight: 800;
-  letter-spacing: -1.5px;
+    margin: 0;
+    color: #0f172a;
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 800;
+    letter-spacing: -1.5px;
 }
+
 .hero-content h1 span {
-  display: block;
-  background: linear-gradient(90deg, #ff5e1e, #8b5cf6);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+    display: block;
+    background: var(--main-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 /* Hero description */
 .hero-content p {
-  max-width: 540px;
-  margin: 20px 0 0;
-  color: #64748b;
-  font-size: 18px;
-  line-height: 1.7;
+    max-width: 540px;
+    margin: 20px 0 0;
+    color: #64748b;
+    font-size: 18px;
+    line-height: 1.7;
 }
 
 .hero-buttons {
-  display: flex;
-  gap: 16px;
-  margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
 }
 
 /* Shared button styling */
 .hero-buttons button,
 .hero-buttons a {
-  padding: 13px 22px;
-  border-radius: 8px;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
-  text-decoration: none;
-  transition: 0.2s ease;
+    padding: 13px 22px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s ease;
 }
 
 /* Shared button properties */
 .hero-buttons button {
-  padding: 13px 22px;
-  border-radius: 8px;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
+    padding: 13px 22px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .hero-primary-btn {
-  border: none;
-  color: #fff;
-  background: linear-gradient(90deg, #ff5e1e, #ec4899);
+    border: none;
+    color: #fff;
+    background: var(--main-gradient);
 }
 
 .hero-secondary-btn {
-  border: 1px solid #e2e8f0;
-  color: #334155;
-  background-color: #fff;
+    border: 1px solid #e2e8f0;
+    color: #334155;
+    background-color: #fff;
 }
 
 /*illustration */
 .hero-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-image img {
-  display: block;
-  width: 100%;
-  max-width: 520px;
-  height: auto;
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
 }
+
 /* Hero button hover effects */
 .hero-primary-btn:hover {
-  transform: translateY(-2px);
-  opacity: 0.9;
+    transform: translateY(-2px);
+    opacity: 0.9;
 }
 
 .hero-secondary-btn:hover {
-  border-color: #ec4899;
-  color: #ec4899;
+    border-color: #ec4899;
+    color: #ec4899;
 }
 
 .hero-buttons button {
-  transition: 0.2s ease;
+    transition: 0.2s ease;
 }

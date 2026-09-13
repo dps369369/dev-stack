@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import { toast } from "react-toastify";
+import { toast } from "react-toastify";
 import "./TechnologyCard.css";
 
 function Technologies({ stack, setStack }) {
@@ -59,7 +59,7 @@ function Technologies({ stack, setStack }) {
   };
 
   return (
-    <section className="technologies">
+    <section id="technologies" className="technologies">
       {loading ? (
         <div className="technologies-container">
           <div className="technologies-loading">

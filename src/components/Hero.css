@@ -42,10 +42,23 @@
   font-size: 18px;
   line-height: 1.7;
 }
+
 .hero-buttons {
   display: flex;
   gap: 16px;
   margin-top: 32px;
+}
+
+/* Shared button styling */
+.hero-buttons button,
+.hero-buttons a {
+  padding: 13px 22px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s ease;
 }
 
 /* Shared button properties */

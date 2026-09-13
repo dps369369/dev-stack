@@ -1,5 +1,6 @@
 // Import list i
 import { useState } from 'react'
+import { ToastContainer } from "react-toastify";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Technologies from "./components/TechnologyCard";
@@ -20,9 +21,8 @@ function App() {
         stack={stack}
         setStack={setStack}
       />
-      {/* <Footer />
+       {/* <Footer /> */}
       <ToastContainer position="bottom-right" />
- */}
 
     </div>
   );

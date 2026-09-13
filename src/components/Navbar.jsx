@@ -35,7 +35,7 @@ function Navbar() {
 
    
       <div className={`navbar-links ${menuOpen ? 'menu-open' : ''}`}>
-        <a href="#home" className="active">Home</a>
+        <a href="#root" className="active">Home</a>
         <a href="#technologies">Technologies</a>
         <a href="#projects">Projects</a>
         <a href="#about">About</a>

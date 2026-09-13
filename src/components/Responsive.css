@@ -86,3 +86,95 @@
     padding: 12px 0;
   }
 }
+
+/* HERO RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  /* Stack Hero content vertically on smaller screens */
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  /* Center the Hero text */
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* Make the heading smaller */
+  .hero-content h1 {
+    font-size: 42px;
+  }
+
+  /* Center the description */
+  .hero-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Center the buttons */
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  /* Prevent the image from becoming too large */
+  .hero-image img {
+    max-width: 420px;
+  }
+}
+
+/* TECHNOLOGIES RESPONSIVE */
+
+@media (max-width: 1024px) {
+
+  .technology-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .technologies {
+    padding: 60px 20px;
+  }
+
+  .technologies-header h2 {
+    font-size: 30px;
+  }
+
+  .technologies-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .technology-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stack-sidebar {
+    position: static;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .technologies {
+    padding: 48px 16px;
+  }
+
+  .technologies-header h2 {
+    font-size: 26px;
+  }
+
+  .technologies-header p {
+    font-size: 14px;
+  }
+
+  .technology-card {
+    padding: 20px;
+  }
+
+}

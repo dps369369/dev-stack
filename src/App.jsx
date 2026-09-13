@@ -1,8 +1,8 @@
 // Import list i
 import { useState } from 'react'
 import Navbar from "./components/Navbar";
-// import Hero from "./components/Hero";
-// import Technologies from "./components/Technologies";
+import Hero from "./components/Hero";
+import Technologies from "./components/TechnologyCard";
 // import Footer from './components/Footer'
 import './components/Responsive.css' 
 
@@ -15,14 +15,14 @@ function App() {
     <div>
 
       <Navbar />
-      {/* <Hero />
+      <Hero />
       <Technologies
         stack={stack}
         setStack={setStack}
       />
-      <Footer />
-      <ToastContainer position="bottom-right" /> */}
-
+      {/* <Footer />
+      <ToastContainer position="bottom-right" />
+ */}
 
     </div>
   );

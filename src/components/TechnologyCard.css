@@ -196,6 +196,9 @@
 }
 
 .add-stack-button:disabled {
+  pointer-events: none;
+}
+.add-stack-button:disabled {
   color: #fff;
   background: #2563eb;
   font-weight: 700;
